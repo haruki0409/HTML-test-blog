@@ -1,10 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
 	margin: 20px;
-	background: linear-gradient(-45deg, #e94336,#4283f3, #00a150,#fabb08);
-	background-size: 200% 200%;
-	animation: gradient 5s ease infinite;
-	height: 100vh;
 }
 
 @keyframes gradient {
@@ -40,6 +36,24 @@ nav a {
 
 main {
 	margin-top: 20px;
+}
+
+.card {
+	width: 10%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: linear-gradient(-45deg, #e94336,#4283f3, #00a150,#fabb08);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+  	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
 }
 
 footer {
