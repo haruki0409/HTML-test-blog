@@ -38,14 +38,22 @@ main {
 	margin-top: 20px;
 }
 
+.card-align {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .card {
 	width: 10%;
+	margin: 5px;
+	padding: 5px;
 	height: auto;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.2);
+	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	background: linear-gradient(-45deg, #e94336,#4283f3, #00a150,#fabb08);
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
-  	transition: 0.3s;
+  	transition: 0.3s; */
 }
 
 .card:hover {
